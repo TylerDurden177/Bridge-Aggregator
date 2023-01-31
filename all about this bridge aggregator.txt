@@ -1,0 +1,33 @@
+Que - What is bridge aggregator
+Ans - A Bridge Aggregator is a term used in the context of blockchain and decentralized finance (DeFi) to refer to a platform or system that facilitates the exchange or transfer of
+      assets between different blockchain networks. It acts as a bridge between different blockchains, allowing for seamless interoperability and facilitating cross-chain transactions.
+
+
+Que - What is this code all about 
+Ans -  This code is for a Flask web application that handles cryptocurrency transactions between different blockchain networks.
+       It has several functions that interact with APIs provided by the services Glitter and Wormhole to retrieve information about available bridges and monitor the status of transactions.
+       The user submits a form with the starting and destination chains for the transaction, and the app returns a message indicating whether the transaction was successful or not.
+       The code also includes functions to get information about available bridges, select the best bridge based on fees and speed, and handle the transaction.
+       The code also includes an add_new_bridge function that allows new bridges to be added to the SDK.
+
+
+
+Que  -
+Ans  -The code is a flask application for handling cross-chain transactions using various supported bridges. It has the following functionalities:
+
+      1.Renders an HTML template 'index.html' when the '/' endpoint is hit. 
+      2.Receives transaction details from the HTML template when the '/submit' endpoint is hit using HTTP POST method.
+      3.Calls functions to get information about available bridges for a specific start_chain and dest_chain, select the best bridge based on transaction fees and speed, and handle the transaction through the selected bridge.
+      4.The functions to get bridge information, select the best bridge, and handle the transaction are implemented using APIs provided by Glitter and Wormhole.
+      5.The code also includes helper functions to add new bridges and monitor their status.
+
+This code is a template for building a cross-chain transaction platform. To use this code, one would need to follow these steps:
+
+QUE- how can someone use this?
+ANS -Install the necessary dependencies: Flask and Requests
+     Customize the code by adding your own logic to select the best bridge and handle the transaction
+     Run the code by executing python filename.py in the command line
+     Access the platform through a web browser at the URL http://localhost:5000/
+       Note: This code does not work out-of-the-box and requires further implementation to be fully functional.
+
+Thanks ! 
